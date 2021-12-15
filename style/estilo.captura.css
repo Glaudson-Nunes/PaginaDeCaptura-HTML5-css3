@@ -1,0 +1,106 @@
+*{
+
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+}
+
+#container{
+
+    margin: 0 auto;
+    
+    max-width: 1000px;
+}
+
+header{
+
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    background-color:rgb(5, 5, 201);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    height: 50px;
+}
+
+section{
+
+    overflow: hidden;
+    background:url("../img/people.jpg") no-repeat;
+    background-size: cover;
+    padding: 15px;
+}
+
+.formulario{
+
+    border-radius: 5px;
+    padding:20px;
+    float: right;
+    color:rgb(253, 253, 253);
+    background-color: rgba(204, 204, 204, 0.26);
+    width: 250px;
+}
+
+.formulario h2{
+
+    padding:10px;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.formulario p{
+
+    padding:10px;
+    font-size: 0.9em;
+
+}
+
+input, select{
+
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    text-indent: 10px;
+    outline: none;
+    font-size: 0.9em;
+
+}
+
+.submit{
+
+    background-color: rgb(21, 21, 180);
+    color: white;
+    font-size: 1.1em;
+    cursor:pointer;
+    height:35px;
+    outline: none;
+}
+
+.submit:hover{
+
+    background-color: rgb(6, 6, 134);
+}
+
+.area-rodape{
+
+    color: white;
+    font-weight: normal;
+    background-color:rgba(5, 5, 201, 0.295);
+    margin-top: 30px;
+    height: 125px;
+}
+
+.rodape{
+
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    color: white;
+    padding-top: 90px;
+}
